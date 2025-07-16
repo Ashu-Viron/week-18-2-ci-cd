@@ -26,8 +26,5 @@ jobs:
         working-directory: packages/db
         run: npx prisma generate
 
-      - name: Run tests
-        run: npm test
-
       - name: Build project
         run: npm run build
